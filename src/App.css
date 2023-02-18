@@ -43,7 +43,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 375px){
   .App{
     height: 100%;
     padding-top: 10px;
@@ -65,16 +65,17 @@
   }
   .academlo-logo{
     position: relative;
-    left: -5rem;
+    left: 0rem;
+    width: 300px;
     bottom: 11rem;
     height: 20%;
     filter: drop-shadow(1px 1px 1px #000);
   }
   .contendor-calculadora {
    position: relative;
-   left: -4.5rem;
+   left: 0rem;
    bottom: 20rem;
-   width: 210px;
+   width: 320px;
    height: 100%;
    padding: 14px;
    background-color: #000;
