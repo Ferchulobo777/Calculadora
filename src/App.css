@@ -86,9 +86,9 @@
   }
 
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
   .App{
-    height: 100vh;
+    height: 100%;
     padding-top: 10px;
     background-color: crimson;
     font-family: Lato, sans-serif;
@@ -99,6 +99,8 @@
     box-sizing: border-box;
   }
   .academlo-logo-contenedor{
+    position: relative;
+    right: -1rem;
     width: 100%;
     height: 200px;
     margin: 8px;
@@ -108,9 +110,103 @@
   }
   .academlo-logo{
     height: 180px;
-    filter: drop-shadow(1px 1px 1px #000);
+    filter: drop-shadow(4px 4px 4px #fff);
   }
   .contendor-calculadora {
+    position: relative;
+    right: -1rem;
+   width: 400px;
+   height: 600px;
+   padding: 14px;
+   background-color: #000;
+   border-radius: 20px;
+   border: 5px solid #fff;
+   color: crimson;
+  }
+  
+  .fila {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+@media screen and (max-width: 992px){
+  .App{
+    height: 100%;
+    padding-top: 10px;
+    background-color: crimson;
+    font-family: Lato, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .academlo-logo-contenedor{
+    position: relative;
+    right: -1rem;
+    width: 100%;
+    height: 200px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .academlo-logo{
+    height: 180px;
+    filter: drop-shadow(4px 4px 4px #fff);
+  }
+  .contendor-calculadora {
+    position: relative;
+    right: -1rem;
+   width: 400px;
+   height: 600px;
+   padding: 14px;
+   background-color: #000;
+   border-radius: 20px;
+   border: 5px solid #fff;
+   color: crimson;
+  }
+  
+  .fila {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+@media screen and (max-width: 768px){
+  .App{
+    height: 100%;
+    padding-top: 10px;
+    background-color: crimson;
+    font-family: Lato, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .academlo-logo-contenedor{
+    position: relative;
+    right: -1rem;
+    width: 100%;
+    height: 200px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .academlo-logo{
+    height: 180px;
+    filter: drop-shadow(4px 4px 4px #fff);
+  }
+  .contendor-calculadora {
+    position: relative;
+    right: -1rem;
    width: 400px;
    height: 600px;
    padding: 14px;
@@ -130,7 +226,7 @@
 }
 @media screen and (max-width: 546px){
   .App{
-    height: 100vh;
+    height: 100%;
     padding-top: 10px;
     background-color: crimson;
     font-family: Lato, sans-serif;
@@ -141,6 +237,8 @@
     box-sizing: border-box;
   }
   .academlo-logo-contenedor{
+    position: relative;
+    left: 1rem;
     width: 100%;
     height: 200px;
     margin: 8px;
@@ -150,9 +248,11 @@
   }
   .academlo-logo{
     height: 180px;
-    filter: drop-shadow(1px 1px 1px #000);
+    filter: drop-shadow(4px 4px 4px #fff);
   }
   .contendor-calculadora {
+   position: relative;
+   left: 1rem;
    width: 400px;
    height: 600px;
    padding: 14px;
@@ -172,7 +272,8 @@
 }
 @media screen and (max-width: 450px){
   .App{
-    height: 100vh;
+    height: 100%;
+    width: 500px;
     padding-top: 10px;
     background-color: crimson;
     font-family: Lato, sans-serif;
@@ -183,7 +284,9 @@
     box-sizing: border-box;
   }
   .academlo-logo-contenedor{
-    width: 100%;
+    position: relative;
+    left: -1rem;
+    width: 80%;
     height: 200px;
     margin: 8px;
     display: flex;
@@ -192,9 +295,12 @@
   }
   .academlo-logo{
     height: 180px;
-    filter: drop-shadow(1px 1px 1px #000);
+    filter: drop-shadow(4px 4px 4px #fff);
   }
   .contendor-calculadora {
+   position: relative;
+   left: -1rem;
+
    width: 400px;
    height: 600px;
    padding: 14px;
@@ -214,7 +320,7 @@
 }
 @media screen and (max-width: 400px){
   .App{
-    height: 100vh;
+    height: 100%;
     width: 500px;
     padding-top: 10px;
     background-color: crimson;
@@ -235,13 +341,13 @@
   }
   .academlo-logo{
     position: relative;
-    left:-2rem;
+    left:0rem;
     height: 160px;
-    filter: drop-shadow(1px 1px 1px #000);
+    filter: drop-shadow(4px 4px 4px #fff);
   }
   .contendor-calculadora {
     position: relative;
-    left: -2rem;
+    left: 0rem;
    width: 380px;
    height: 600px;
    padding: 14px;
@@ -261,7 +367,7 @@
 }
 @media screen and (max-width: 375px){
   .App{
-    height: 100vh;
+    height: 100%;
     padding-top: 10px;
     background-color: crimson;
     font-family: Lato, sans-serif;
@@ -281,15 +387,15 @@
   }
   .academlo-logo{
     position: relative;
-    left: -2.8rem;
+    left: 0rem;
     width: 400px;
     bottom: 9rem;
     height: 40%;
-    filter: drop-shadow(1px 1px 1px #000);
+    filter: drop-shadow(4px 4px 4px #fff);
   }
   .contendor-calculadora {
    position: relative;
-   left: -2rem;
+   left: 0rem;
    bottom: 17rem;
    width: 380px;
    height: 100%;
@@ -309,7 +415,7 @@
 }
 @media screen and (max-width: 320px){
   .App{
-    height: 100vh;
+    height: 100%;
     padding-top: 10px;
     background-color: crimson;
     font-family: Lato, sans-serif;
@@ -329,15 +435,15 @@
   }
   .academlo-logo{
     position: relative;
-    left: -2.8rem;
+    left: 0rem;
     width: 400px;
     bottom: 9rem;
     height: 40%;
-    filter: drop-shadow(1px 1px 1px #000);
+    filter: drop-shadow(4px 4px 4px #fff);
   }
   .contendor-calculadora {
    position: relative;
-   left: -2rem;
+   left: 0rem;
    bottom: 17rem;
    width: 380px;
    height: 100%;
