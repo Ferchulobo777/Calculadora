@@ -317,7 +317,7 @@
 @media screen and (max-width: 420px){
   .App{
     height: 100%;
-    width: 100%;
+    width: 440px;
     padding-top: 10px;
     background-color: crimson;
     font-family: Lato, sans-serif;
@@ -325,7 +325,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
   }
   .academlo-logo-contenedor{
     position: relative;
