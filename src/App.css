@@ -316,8 +316,8 @@
 }
 @media screen and (max-width: 420px){
   .App{
-    height: 65rem;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     padding-top: 10px;
     background-color: crimson;
     font-family: Lato, sans-serif;
