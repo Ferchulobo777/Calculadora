@@ -316,7 +316,7 @@
 }
 @media screen and (max-width: 420px){
   .App{
-    height: 60rem;
+    height: 65rem;
     width: 500px;
     padding-top: 10px;
     background-color: crimson;
@@ -337,7 +337,8 @@
     justify-content: center;
   }
   .academlo-logo{
-    width: 320px;
+    width: 400px;
+    margin-right: 2rem;
     height: 160px;
     margin-left: 1rem;
     filter: drop-shadow(4px 4px 4px #fff);
@@ -345,7 +346,7 @@
   .contendor-calculadora {
    position: relative;
    margin-right: 2.5rem;
-   width: 270px;
+   width: 380px;
    height: 600px;
    padding: 14px;
    background-color: #000;
